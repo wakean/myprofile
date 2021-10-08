@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: rgb(255, 244, 254);
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* header */
+
+#header img {
+  height: 200px;
+}
+
+#header h1 {
+  color: rgb(255, 0, 179);
+}
+
+.site-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#header ul {
+  display: flex;
+  align-items: center;
+}
+
+#header li {
+  margin-right: 15px;
+}
+
+#header li:hover {
+  opacity: 0.7;
+}
+
+#header {
+  margin: 0 10px 50px;
+}
+
+/* mainvisual */
+
+#mainvisual img {
+  height: 400px;
+  max-width: 1920px;
+  object-fit: cover;
+}
+
+#mainvisual {
+  margin: 0 10px 50px;
+}
+
+/* about */
+
+#about {
+  margin: 0 auto 50px;
+  background-color: white;
+  padding: 10px 10px 30px;
+}
+
+#about h2 {
+  border: solid 2px palevioletred;
+  background-color: palevioletred;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+#about .profile {
+  display: flex;
+  align-items: center;
+}
+
+#about dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about dt {
+  width: 30%;
+  font-weight: bold;
+  border-bottom: solid 3px violet;
+}
+
+#about dd {
+  width: 70%;
+  padding-left: 30px;
+}
+
+#about .content {
+  display: block;
+}
+
+#about p {
+  font-weight: bold;
+  border-bottom: solid 3px violet;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#about table {
+  border: solid 3px violet;
+  width: 100%;
+}
+
+#about th {
+  background-color: thistle;
+  padding: 10px;
+}
+
+#about .year {
+  width: 30%;
+}
+
+#about td {
+  padding: 5px 15px;
+}
+
+/* hobbys */
+
+#hobbys {
+  margin: 0 auto 50px;
+  padding: 10px 10px 30px;
+}
+
+#hobbys h2 {
+  border: solid 2px palevioletred;
+  background-color: palevioletred;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#hobbys ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hobbys img {
+  width: 200px;
+  height: 150px;
+}
+
+#hobbys li {
+  width: 32%;
+}
+
+#hobbys p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+/* loves */
+
+#loves {
+  margin: 0 auto 50px;
+  background-color: white;
+  padding: 10px 10px 50px;
+}
+
+#loves h2 {
+  border: solid 2px palevioletred;
+  background-color: palevioletred;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+#loves .content-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px violet;
+  margin-bottom: 10px;
+}
+
+#loves .content-title p {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#loves img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 5px violet;
+}
+
+#loves ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#loves li {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* sns */
+
+#sns {
+  margin: 0 auto 50px;
+  padding: 10px 10px 50px;
+}
+
+#sns h2 {
+  border: solid 2px palevioletred;
+  background-color: palevioletred;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#sns .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#sns img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 3px violet
+}
+
+#sns .inner:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+#sns p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: violet;
+  border-bottom: solid 2px violet;
+}
+
+#sns a:hover {
+  opacity: 0.5;
+}
+
+/* footer */
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0;
+}
